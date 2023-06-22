@@ -15,7 +15,7 @@ $(document).ready(function () {
     sum = sum + subject_points[2];
     sum = sum + subject_points[3];
     sum = sum + subject_points[4];
-    // 「合計点：」(id="sum_indicate")に変数「sum」(合計点)を出力させます。
+    // 「合計点：」(id="sum_indicate")に変数「sum」(合計点)を出力させます
     $("#sum_indicate").text(sum);
 
     let average = sum / subject_points.length //lengthで要素の数を取得する
